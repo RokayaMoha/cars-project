@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap');
+
+*{
+
+  font-family: "Open Sans", sans-serif;
+}
+
+footer svg{
+  color:#af8912 
+}
+.accordion-button{
+
+background-color: #af8912 !important;
+color:#fff;
+box-shadow :none !important;
+}
+.accordion-button:active, .accordion-button:focus ,.accordion-button:hover{
+  border: 1px solid #1a1b12 !important;
+}
+.accordion-button:hover{
+  background-color: #595951 !important;
+}
+.accordion-header button :hover ,.accordion-header button:active ,.accordion-header button:focus{
+  color:#fff !important;
+}
+.accordion-body{
+  background-color: #2a2a27;
+  color:#fff;
+}
+.accordion-button::after{
+  content:"";
+  background-image:url(../down-arrow.svg) !important;
+  background-color: #af8912 !important;
+}
+.navbar{
+  text-transform: capitalize;
+}
+.navbar-brand{
+text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+@media(min-width:980px){
+  .navbar{
+    display: flex;
+    background-color:#212529;
+  }
+  
+  .navbar-nav,.navbar-brand,.nav-link{
+    color: #fff;
+  }
+  
+  
+}
+@media(max-width:974px){
+
+  .navbar{
+    display: flex;
+    background-color:#000000;
+  }
+  .navbar-nav,.navbar-brand,.nav-link{
+    color: #fff;
+  }
+  .navbar-brand{
+    margin: auto;
+  }
+  .navbar-brand:hover{
+    color:#fff
+  }
+
+ .navbar-toggler-icon , .navbar-toggler {
+    
+    background-color:#af8912;
+    
+  }
+}
+
+.nav-link:hover{
+  color:#af8912;
+  border-bottom: 1px solid #af8912;
+}
+
+.line{
+  display: inline-block;
+  width:8%;
+  height:4px;
+  border-radius: 10%;
+  background-color: #af8912;
+}
